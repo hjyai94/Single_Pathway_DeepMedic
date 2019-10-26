@@ -11,7 +11,7 @@ following command
 
 ## Dataset
 We run experiments on [BRATS 2015 Subset](http://cseweb.ucsd.edu/~yaq007/dataset.zip). It includes training set and testing set with lables.
-This subset has 20 brain turmor subjects for training and 54 subjects for testing which include four moldalities: FLAIR, T1, T1c, T2, and mask and ground truth. The ground truth of patient images have four different labels:
+This subset has 20 brain turmor subjects for training and 54 subjects for testing, each of which includes four moldalities: FLAIR, T1, T1c, T2, and mask and ground truth. The ground truth of patient images have four different labels:
 
 * label 1: necrosis
 * label 2: edema
@@ -30,4 +30,4 @@ You can use generate_mask.ipynb to generate mask for each image.
 
 
 ## How to run Single-Pathway DeepMedic?
-Training and testing for Single_pathway DeepMedic are written in Single_Pathway_DeepMedic.ipynb. If you have any question about the code, you can create a new issue.
+Training and testing for Single-Pathway DeepMedic are written in Single_Pathway_DeepMedic.ipynb. If you have any question about the code, you can create a new issue.
